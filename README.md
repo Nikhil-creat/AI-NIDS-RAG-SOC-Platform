@@ -111,4 +111,4 @@ separately and place it in `data/`.
 
 ## Author
 
-Nikhil Chary Sriramoju
+NIKHIL CHARY SRIRAMOJU
