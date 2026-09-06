@@ -1,5 +1,7 @@
 # AI-Powered Network Intrusion Detection & Threat Analytics System
 
+![CI](https://github.com/Nikhil-creat/AI-NIDS-RAG-SOC-Platform/actions/workflows/ci.yml/badge.svg)
+
 An end-to-end system that combines **Data Science + Cybersecurity + AI/ML** to
 detect malicious network traffic in real time, explain *why* traffic was
 flagged, and surface insights through an interactive dashboard.
@@ -57,24 +59,7 @@ NIDS-project/
 
 ## Multi-Agent Pipeline
 
-```
- Network Traffic
-       │
-       ▼
-┌─────────────────┐     attack detected      ┌──────────────────────┐
-│ Detection Agent  │ ────────────────────────▶│ Threat Intel Agent    │
-│ (RF + Iso Forest)│                           │ (RAG: ChromaDB+Gemini)│
-└─────────────────┘                           └──────────┬───────────┘
-                                                          │ context + explanation
-                                                          ▼
-                                                ┌──────────────────────┐
-                                                │  Response Agent       │
-                                                │  (severity scoring +  │
-                                                │   simulated action)   │
-                                                └──────────┬───────────┘
-                                                          ▼
-                                                  SQLite incident log
-```
+![Architecture Diagram](assets/architecture.png)
 
 Run the full pipeline on a single record with:
 ```python
