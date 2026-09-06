@@ -1,0 +1,18 @@
+# Data files (too large for git, download separately)
+data/*.csv
+data/*.zip
+
+# Trained models (optional - remove this line if you want to commit them)
+models/*.pkl
+
+# Kaggle credentials - NEVER commit these
+kaggle.json
+*.kaggle/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

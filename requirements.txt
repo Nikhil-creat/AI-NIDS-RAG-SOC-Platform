@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+streamlit
+joblib
+shap
+kaggle
+google-generativeai
+pyngrok
+chromadb
+sentence-transformers
